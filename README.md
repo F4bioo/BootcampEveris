@@ -5,17 +5,17 @@
 
 | DEASAFIO | NÍVEL | SOLUÇÃO |
 | :--: | :--: | :--: |
-| [Desafio 01](#anchor01) | Básico | [Lógica 01](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge1.kt) |
-| [Desafio 02](#anchor02) | Básico | [Lógica 02](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge2.kt) |
-| [Desafio 03](#anchor03) | Básico | [Lógica 03](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge3.kt) |
-| [Desafio 04](#anchor03) | Intermediário | [Lógica 04](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge4.kt) |
-| [Desafio 05](#anchor05) | Intermediário | [Lógica 05](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge5.kt) |
-| [Desafio 06](#anchor06) | Intermediário | [Lógica 06](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge6.kt) |
-| [Desafio 07](#anchor07) | Intermediário | [Lógica 07](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge7.kt) |
-| [Desafio 08](#anchor08) | Intermediário | [Lógica 08](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge8.kt) |
-| [Desafio 09](#anchor09) | Intermediário | [Lógica 09](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge9.kt) |
-| [Desafio 10](#anchor10) | Intermediário | [Lógica 10](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge10.kt) |
-| [Desafio 11](#anchor11) | Intermediário | [Lógica 11](src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge11.kt) |
+| [Desafio 01](#anchor01) | Básico | [Lógica 01](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge1.kt) |
+| [Desafio 02](#anchor02) | Básico | [Lógica 02](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge2.kt) |
+| [Desafio 03](#anchor03) | Básico | [Lógica 03](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge3.kt) |
+| [Desafio 04](#anchor04) | Intermediário | [Lógica 04](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge4.kt) |
+| [Desafio 05](#anchor05) | Intermediário | [Lógica 05](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge5.kt) |
+| [Desafio 06](#anchor06) | Intermediário | [Lógica 06](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge6.kt) |
+| [Desafio 07](#anchor07) | Intermediário | [Lógica 07](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge7.kt) |
+| [Desafio 08](#anchor08) | Intermediário | [Lógica 08](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge8.kt) |
+| [Desafio 09](#anchor09) | Intermediário | [Lógica 09](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge9.kt) |
+| [Desafio 10](#anchor10) | Intermediário | [Lógica 10](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge10.kt) |
+| [Desafio 11](#anchor11) | Intermediário | [Lógica 11](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge11.kt) |
 
 # <a id="anchor01"></a>Desafio 01 
 ### [voltar ao topo](#anchorTop)
@@ -79,7 +79,7 @@ Há um país denominado Lolipad, todos os habitantes ficam felizes em pagar seus
 Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobre R$ 1000.00, pois a faixa de salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com duas casas decimais.
 Você terá o desafio de ler um valor com duas casas decimais, equivalente ao salário de uma pessoa de Loli. Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.
 
-![](src/main/res/drawable/img_challenge_4.png)
+![](app/src/main/res/drawable/img_challenge_4.png)
 
 ## Entrada
 A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
@@ -175,7 +175,7 @@ Em seguida, eles tinham que dividir as figurinhas de cada um em pilhas do mesmo 
 
 Por exemplo, se Ricardo e Vicente fossem trocar as figurinhas e tivessem respectivamente 8 e 12 figuras, ambos dividiam todas as suas figuras em pilhas de 4 figuras (Ricardo teria 2 pilhas e Vicente teria 3 pilhas) e ambos escolhiam uma pilha do amigo para receber.
 
-![](src/main/res/drawable/img_challenge_8.png)
+![](app/src/main/res/drawable/img_challenge_8.png)
 
 ## Entrada
 A primeira linha da entrada contém um único inteiro N (1 ≤ N ≤ 3000), indicando o número de casos de teste. Cada caso de teste contém 2 inteiros F1 (1 ≤ F1 ≤ 1000) e F2 (1 ≤ F2 ≤ 1000) indicando, respectivamente, a quantidade de figurinhas que Ricardo e Vicente têm para trocar.
@@ -215,7 +215,7 @@ Para cada caso de teste, deve ser impressa uma linha com um valor inteiro que re
 
 Neste problema você é solicitado a escrever um simples programa de conversão de base. A entrada será um valor hexadecimal ou decimal. Você deverá converter cada valor da entrada. Se o valor for hexadecimal, você deve convertê-lo para decimal e vice-versa. O valor hexadecimal inicia sempre com “0x” ou também, é aquele valor cuja segunda casa contém a letra 'x'.
 
-![](src/main/res/drawable/img_challenge_10.png)
+![](app/src/main/res/drawable/img_challenge_10.png)
 
 ## Entrada
 A entrada contém vários casos de teste. Cada linha de entrada, com exceção da última, contém um número não-negativo, decimal ou hexa. O valor decimal será menor ou igual a 231. A última linha contém um número negativo que não deve ser processado, indicando o encerramento do programa.
@@ -237,7 +237,7 @@ Você tem em mãos dois cabos circulares de energia. O primeiro cabo tem raio R1
 
 Qual o menor raio do conduite que você deve comprar? Em outras palavras, dado dois círculos, qual o raio do menor círculo que possa englobar ambos os dois?
 
-![](src/main/res/drawable/img_challenge_11.png)
+![](app/src/main/res/drawable/img_challenge_11.png)
 
 ## Entrada
 Na primeira linha teremos um inteiro T (T ≤ 10000), indicando o número de casos de teste.
