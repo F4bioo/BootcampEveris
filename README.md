@@ -17,7 +17,17 @@
 | [Desafio 10](#anchor10) | Intermediário | [Lógica 10](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge10.kt) |
 | [Desafio 11](#anchor11) | Intermediário | [Lógica 11](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge11.kt) |
 
+## Este projeto tem como base
+- Kotlin
+- MVI (MVVM) Architecture
+- Dependency Injection with Hilt
+- View Binding
+- Jetpack Navigation, Nav Controller
+- Coroutine Scope, Flow
+- ConstraintLayout, Flow
+
 # <a id="anchor01"></a>Desafio 01 
+
 ### [voltar ao topo](#anchorTop)
 
 Leia dois valores inteiros identificados como variáveis A e B. Calcule a soma entre elas e chame essa variável de SOMA.
