@@ -1,3 +1,144 @@
 <resources>
-    <string name="app_name">BootcampEveris</string>
+    <string name="app_name">Bootcamp Everis</string>
+
+    <!-- general-->
+    <string name="text_result_challenge">Resultado</string>
+    <string name="text_run_challenge">Run</string>
+    <string name="text_input_challenge">Entrada</string>
+    <string name="text_empty_input">Entre com um valor!</string>
+    <string name="text_description_multiple_entries">Suporta uma ou mais entradas, pressione [+]
+        para cada nova entrada.</string>
+    <string name="text_add_challenge">Adicionar</string>
+    <string name="text_basic_challenge">Básico</string>
+    <string name="text_intermediate_challenge">Intermediário</string>
+    <string name="text_conditional_challenge">O valor deve ser maior/igual a 1 menor ou menos/igual a 1000.</string>
+    <string name="text_input_title_challenge">Entre com dois valores. Em cada valor, pressione [+] para adicionar. (%d/2)</string>
+    <string name="text_title_source">Código fonte</string>
+    <string name="text_bootcamp_title">Bootcamp Everis Kotlin Developer</string>
+    <string name="text_bootcamp_description">Se o seu sonho sempre foi aprender a como desenvolver
+        aplicativos Android, este bootcamp é para você! Com foco em desenvolvimento de software utilizando
+        Kotlin, uma linguagem de programação multiplataforma derivada do Java, você irá aprender desde o
+        zero com os melhores especialistas no tema ao mesmo tempo que se prepara para uma oportunidade de
+        contratação na everis, empresa multinacional com sede em Madri, líder em soluções tecnológicas.</string>
+
+    <!-- about-->
+    <string name="text_about_title">Sobre</string>
+    <string name="text_about_contact">Contato</string>
+    <string name="text_about_name">Fabio Costa</string>
+    <string name="text_about_link">www.fappslab.com</string>
+
+    <!-- challenge 1-->
+    <string name="text_title_challenge1">Desafio 1</string>
+    <string name="text_title_name_challenge1">Soma Simples</string>
+    <string name="text_description_challenge1">Leia dois valores inteiros identificados como variáveis A e B.
+        A seguir escreva o valor desta variável.</string>
+
+    <!-- challenge 2-->
+    <string name="text_title_challenge2">Desafio 2</string>
+    <string name="text_title_name_challenge2">Números Ímpares</string>
+    <string name="text_description_challenge2">Leia um valor inteiro X (1 &lt;= X &lt;= 1000).
+        Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.</string>
+
+    <!-- challenge 3-->
+    <string name="text_title_challenge3">Desafio 3</string>
+    <string name="text_title_name_challenge3">Quadrado e ao Cubo</string>
+    <string name="text_description_challenge3">Você terá o desafio de escrever um programa que leia
+        um valor inteiro N (1 &lt; N &lt; 1000). Este N é a quantidade de linhas de saída que serão apresentadas
+        na execução do programa.</string>
+
+    <!-- challenge 4-->
+    <string name="text_title_challenge4">Desafio 4</string>
+    <string name="text_title_name_challenge4">Taxa de Imposto de Renda</string>
+    <string name="text_salary">Salário</string>
+    <string name="text_result_challenge4">Imposto a ser pago</string>
+    <string name="text_conditional_challenge4">O valor deve ser maior ou igual a 0.</string>
+    <string name="text_description_challenge4">Há um país denominado Lolipad, todos os habitantes ficam felizes em
+        pagar seus impostos, pois sabem que nele não existem políticos corruptos e os recursos arrecadados são
+        utilizados em benefício da população, sem qualquer desvio. A moeda deste país é o Loli, cujo símbolo é o R$.
+        \n\nVocê terá o desafio de ler um valor com duas casas decimais, equivalente ao salário de uma pessoa de Loli.
+        Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.</string>
+
+    <!-- challenge 5-->
+    <string name="text_title_challenge5">Desafio 5</string>
+    <string name="text_title_name_challenge5">Área do círculo</string>
+    <string name="text_radius">Raio</string>
+    <string name="text_result_challenge5">Área</string>
+    <string name="text_conditional_challenge5">O valor deve ser maior ou igual a 0.</string>
+    <string name="text_description_challenge5">A fórmula para calcular a área de uma circunferência é: area = π .
+        raio2. Considerando para este problema que π = 3.14159:
+        \n\n- Efetue o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π.</string>
+
+    <!-- challenge 6-->
+    <string name="text_title_challenge6">Desafio 6</string>
+    <string name="text_title_name_challenge6">Primo Rápido</string>
+    <string name="text_result_challenge6">Área</string>
+    <string name="text_input_amount">Entre com o(s) valor(es)</string>
+    <string name="text_conditional_challenge6">O valor deve ser maior|igual a 1 menor ou menos|igual a 200.</string>
+    <string name="text_description_challenge6">Mariazinha sabe que um Número Primo é aquele que pode ser dividido
+        somente por 1 (um) e por ele mesmo. Por exemplo, o número 7 é primo, pois pode ser dividido apenas
+        pelo número 1 e pelo número 7 sem que haja resto. Então ela pediu para você fazer um programa que
+        aceite diversos valores e diga se cada um destes valores é primo ou não. Acontece que a paciência
+        não é uma das virtudes de Mariazinha, portanto ela quer que a execução de todos os casos de teste
+        que ela selecionar (instâncias) aconteçam no tempo máximo de um segundo, pois ela odeia esperar.
+        \n\n<b>Suporta uma ou mais entradas, pressione [+] para cada nova entrada.</b></string>
+
+    <!-- challenge 7-->
+    <string name="text_title_challenge7">Desafio 7</string>
+    <string name="text_title_name_challenge7">A Corrida de Tartarugas</string>
+    <string name="text_description_challenge7">A corrida de tartarugas é um esporte que cresceu muito nos últimos anos,
+        fazendo com que vários competidores se dediquem a capturar tartarugas rápidas, e treina-las para faturar milhões
+        em corridas pelo mundo. Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil, pois quase todos
+        esses répteis são bem lentos. Cada tartaruga é classificada em um nível dependendo de sua velocidade:
+        \n\n<b>Nível 1</b>: Se a velocidade é menor que 10 cm/h.
+        \n<b>Nível 2</b>: Se a velocidade é maior ou igual a 10 cm/h e menor que 20 cm/h.
+        \n<b>Nível 3</b>: Se a velocidade é maior ou igual a 20 cm/h.
+        \n\nSua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de um grupo.</string>
+    <string name="text_list_size_challenge7">Tamanho da lista de tartaruagas (%s)</string>
+    <string name="text_speed_challenge7">Escolha a velocidade de cada tartaruga e precione [+] para adicionar na lista (%1$d/%2$d)</string>
+
+    <!-- challenge 8-->
+    <string name="text_title_challenge8">Desafio 8</string>
+    <string name="text_title_name_challenge8">Figurinhas</string>
+    <string name="text_description_challenge8">Ricardo e Vicente são aficionados por figurinhas. Nas horas vagas,
+        eles arrumam um jeito de jogar um “bafo” ou algum outro jogo que envolva tais figurinhas. Ambos também têm
+        o hábito de trocarem as figuras repetidas com seus amigos e certo dia pensaram em uma brincadeira diferente.
+        Chamaram todos os amigos e propuseram o seguinte: com as figurinhas em mãos, cada um tentava fazer uma troca com o
+        amigo que estava mais perto seguindo a seguinte regra: cada um contava quantas figurinhas tinha. Em seguida,
+        eles tinham que dividir as figurinhas de cada um em pilhas do mesmo tamanho, no maior tamanho que fosse possível
+        para ambos. Então, cada um escolhia uma das pilhas de figurinhas do amigo para receber. Por exemplo, se Ricardo e
+        Vicente fossem trocar as figurinhas e tivessem respectivamente 8 e 12 figuras, ambos dividiam todas as suas figuras
+        em pilhas de 4 figuras (Ricardo teria 2 pilhas e Vicente teria 3 pilhas) e ambos escolhiam uma pilha do
+        amigo para receber.</string>
+
+    <!-- challenge 9-->
+    <string name="text_title_challenge9">Desafio 9</string>
+    <string name="text_title_name_challenge9">O jogo Matemático de Paula</string>
+    <string name="text_description_challenge9">Paula simplesmente adora matemática. Seu maior passatempo é ficar
+        inventando jogos ou atividades que a envolvam para brincar com seus amiguinhos. Obviamente, nem todos eles
+        não são tão apaixonados assim por matemática e têm muita dificuldade para resolver as brincadeiras propostas
+        por ela. Agora Paula inventou um pequeno passatempo que envolve 3 caracteres: um dígito numérico, uma letra
+        e outro dígito numérico.
+        \n\nSe a letra for maiúscula, deve-se subtrair o primeiro dígito do segundo. Se a letra for minúscula,
+        deve-se somar ambos os dígitos e se os DÍGITOS forem iguais, deve-se desconsiderar a letra e mostrar o
+        produto entre os dois dígitos. Ela pediu para seu amigo Marcelo, que é bom em programação, para criar
+        um programa para que encontre a solução para cada uma das sequências que Paula lhe apresentar.</string>
+
+    <!-- challenge 10-->
+    <string name="text_title_challenge10">Desafio 10</string>
+    <string name="text_title_name_challenge10">Conversão Simples de Base</string>
+    <string name="text_description_challenge10">Neste problema você é solicitado a escrever um simples
+        programa de conversão de base. A entrada será um valor hexadecimal ou decimal. Você deverá
+        converter cada valor da entrada. Se o valor for hexadecimal, você deve convertê-lo para decimal
+        e vice-versa. O valor hexadecimal inicia sempre com "0x" ou também, é aquele valor cuja segunda
+        casa contém a letra x.</string>
+
+    <!-- challenge 11-->
+    <string name="text_title_challenge11">Desafio 11</string>
+    <string name="text_title_name_challenge11">Bob Conduite</string>
+    <string name="text_description_challenge11">Você tem em mãos dois cabos circulares de energia.
+        O primeiro cabo tem raio R1 e o segundo raio R2. Você precisa comprar um conduite circular
+        (veja a imagem abaixo que ilustra um conduite) de maneira a passar os dois cabos por dentro dele:
+        \n\nQual o menor raio do conduite que você deve comprar? Em outras palavras, dado dois círculos,
+        qual o raio do menor círculo que possa englobar ambos os dois?</string>
+
 </resources>
