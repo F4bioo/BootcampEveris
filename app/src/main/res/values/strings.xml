@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bootcamp Everis</string>
+    <string name="app_name">Bootcamp everis</string>
 
     <!-- general-->
     <string name="text_result_challenge">Resultado</string>
@@ -14,7 +14,7 @@
     <string name="text_conditional_challenge">O valor deve ser maior/igual a 1 menor ou menos/igual a 1000.</string>
     <string name="text_input_title_challenge">Entre com dois valores. Em cada valor, pressione [+] para adicionar. (%d/2)</string>
     <string name="text_title_source">Código fonte</string>
-    <string name="text_bootcamp_title">Bootcamp Everis Kotlin Developer</string>
+    <string name="text_bootcamp_title">Bootcamp everis Kotlin Developer</string>
     <string name="text_bootcamp_description">Se o seu sonho sempre foi aprender a como desenvolver
         aplicativos Android, este bootcamp é para você! Com foco em desenvolvimento de software utilizando
         Kotlin, uma linguagem de programação multiplataforma derivada do Java, você irá aprender desde o
