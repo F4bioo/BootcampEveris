@@ -49,6 +49,11 @@ class MainFragment : Fragment() {
                 findNavController()
                     .navigateWithAnimations(R.id.action_mainFragment_to_challenge3Fragment)
             }
+
+            buttonChallenge4.setOnClickListener {
+                findNavController()
+                    .navigateWithAnimations(R.id.action_mainFragment_to_challenge4Fragment)
+            }
         }
     }
 
