@@ -50,6 +50,10 @@
             app:destination="@id/challenge10Fragment" />
 
         <action
+            android:id="@+id/action_mainFragment_to_challenge11Fragment"
+            app:destination="@id/challenge11Fragment" />
+
+        <action
             android:id="@+id/action_mainFragment_to_aboutFragment"
             app:destination="@id/aboutFragment" />
 
@@ -114,6 +118,12 @@
         android:name="fbo.costa.bootcampeveris.ui.challenge10.Challenge10Fragment"
         android:label="@string/text_title_challenge10"
         tools:layout="@layout/challenge10_fragment" />
+
+    <fragment
+        android:id="@+id/challenge11Fragment"
+        android:name="fbo.costa.bootcampeveris.ui.challenge11.Challenge11Fragment"
+        android:label="@string/text_title_challenge11"
+        tools:layout="@layout/challenge11_fragment" />
 
     <fragment
         android:id="@+id/aboutFragment"
