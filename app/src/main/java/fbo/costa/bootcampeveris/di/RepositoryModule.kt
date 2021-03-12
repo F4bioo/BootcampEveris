@@ -45,4 +45,9 @@ object RepositoryModule {
     @Provides
     fun provideRepositoryChallenge7(
     ) = RepositoryChallenge7()
+
+    @Singleton
+    @Provides
+    fun provideRepositoryChallenge8(
+    ) = RepositoryChallenge8()
 }
