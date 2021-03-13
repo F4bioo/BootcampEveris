@@ -3,6 +3,32 @@
 > 
 
 
+
+### Olá pessoal,
+
+>Gostaria de compartilhar algo com vocês, em especial aos que estão iniciando no desenvolvimento Android. Não sei quanto a vocês, mas eu sempre me perguntava na faculdade *"Como essa coisa feia, sem interface, poderia se tornar um software?"* 
+Acredito que mais alguém já teve essa pira no início também rs. Este foi o meu primeiro Bootcamp na plataforma da DIO **Bootcamp everis Kotlin Developer** e quando iniciei os desafios me bateu uma nostalgia de quando eu passava horas tentando resolver os trabalhos da faculdade (bons tempos Eclipse + plugin ADT).
+>
+Pensando nisso, ao terminar os desafios propostos, resolvi implementar os 11 algoritmos em um projeto Android real para que os iniciantes possam ter uma noção de como ficaria essa implementação.
+>
+Nesse projeto, tentei seguir uma situação do mundo real, aplicando os conceitos abordados no Bootcamp, entre outros. Seguindo o raciocínio de como eu o faria, não quero dizer que é a melhor ou a única forma de se fazer, mas tentei abordar um pouco de como seria no dia a dia de um Desenvolvedor Android.
+
+
+
+## O projeto tem como base:
+
+- Kotlin
+- MVI (MVVM) Architecture (Arquitetura em uso:MVI Model View Intent qualquer atualização da IU é definida por um novo estado. Seria um componente a mais usado na arquitetura MVVM do que uma arquitetura propriamente dita.
+- Dependency Injection (Hilt)
+- View Binding
+- Jetpack Navigation, Nav Controller
+- Coroutine Scope, Flow
+- ConstraintLayout, Flow
+- Guidelines - Material Design
+
+
+
+
 | DEASAFIO | NÍVEL | SOLUÇÃO |
 | :--: | :--: | :--: |
 | [Desafio 01](#anchor01) | Básico | [Lógica 01](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge1.kt) |
@@ -17,20 +43,10 @@
 | [Desafio 10](#anchor10) | Intermediário | [Lógica 10](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge10.kt) |
 | [Desafio 11](#anchor11) | Intermediário | [Lógica 11](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge11.kt) |
 
-## Este projeto tem como base
-- Kotlin
-- MVI (MVVM) Architecture
-- Dependency Injection with Hilt
-- View Binding
-- Jetpack Navigation, Nav Controller
-- Coroutine Scope, Flow
-- ConstraintLayout, Flow
-- Guidelines - Material Design
+
+
 
  > ### [APK Download](https://github.com/F4bioo/BootcampEveris/raw/master/app/release/app-release.apk)
- > 
-
-
 
 <img src="screen_capture1.png" width="30%"></img>
 <img src="screen_capture2.png" width="30%"></img>
