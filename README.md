@@ -27,6 +27,10 @@
 - ConstraintLayout, Flow
 - Guidelines - Material Design
 
+ > ### [APK Download](/app/release/app-release.apk)
+ > 
+
+
 
 <img src="screen_capture1.png" width="30%"></img>
 <img src="screen_capture2.png" width="30%"></img>

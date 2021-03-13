@@ -7,10 +7,12 @@ import kotlinx.coroutines.flow.flow
 class RepositoryChallenge8 {
     fun calculate(list: List<String>): Flow<DataState<String>> = flow {
         try {
+
+            // Set the Greatest Common Divisor
             val mdc = if (list[0] > list[1]) {
-                mdc(list[0].toInt(), list[1].toInt()) // recebe o MDC Maior Divisor Comum
+                mdc(list[0].toInt(), list[1].toInt())
             } else {
-                mdc(list[1].toInt(), list[0].toInt()) // recebe o MDC Maior Divisor Comum
+                mdc(list[1].toInt(), list[0].toInt())
             }
 
             val result = mdc.toString()
@@ -25,7 +27,7 @@ class RepositoryChallenge8 {
     }
 
     // Maximum Common Divisor (recursive call)
-    fun mdc(n1: Int, n2: Int): Int {
+    private fun mdc(n1: Int, n2: Int): Int {
         var a = n1
         var b = n2
         var resto: Int
@@ -36,6 +38,6 @@ class RepositoryChallenge8 {
             b = resto // and what divides is the rest of the division
         } while (resto != 0) // Repeat until you find a case where the division is accurate
 
-        return a // receives the Greatest Common Divisor for the GCF
+        return a // returns the Greatest Common Divisor
     }
 }

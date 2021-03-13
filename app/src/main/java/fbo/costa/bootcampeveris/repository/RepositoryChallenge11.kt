@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.flow
 class RepositoryChallenge11 {
     fun calculate(list: List<String>): Flow<DataState<String>> = flow {
         try {
+            // ValueA + ValueB
             val result = list[0].toInt().plus(list[1].toInt()).toString()
 
             // Each value emit the result the list can be large
