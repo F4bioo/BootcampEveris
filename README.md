@@ -27,7 +27,7 @@
 - ConstraintLayout, Flow
 - Guidelines - Material Design
 
- > ### [APK Download](/app/release/app-release.apk)
+ > ### [APK Download](https://github.com/F4bioo/BootcampEveris/raw/master/app/release/app-release.apk)
  > 
 
 
