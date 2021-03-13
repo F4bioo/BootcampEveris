@@ -1,21 +1,20 @@
 # <a name="anchorTop"></a>Desafio Bootcamp everis Kotlin Developer
 > Projeto baseado nos desafios do **Bootcamp everis Kotlin Developer**.
-> 
 
 
 
 ### Olá pessoal,
 
->Gostaria de compartilhar algo com vocês, em especial aos que estão iniciando no desenvolvimento Android. Não sei quanto a vocês, mas eu sempre me perguntava na faculdade *"Como essa coisa feia, sem interface, poderia se tornar um software?"* 
+Gostaria de compartilhar algo com vocês, em especial aos que estão iniciando no desenvolvimento Android. Não sei quanto a vocês, mas eu sempre me perguntava na faculdade *"Como essa coisa feia, sem interface, poderia se tornar um software?"* 
 Acredito que mais alguém já teve essa pira no início também rs. Este foi o meu primeiro Bootcamp na plataforma da DIO **Bootcamp everis Kotlin Developer** e quando iniciei os desafios me bateu uma nostalgia de quando eu passava horas tentando resolver os trabalhos da faculdade (bons tempos Eclipse + plugin ADT).
->
+
 Pensando nisso, ao terminar os desafios propostos, resolvi implementar os 11 algoritmos em um projeto Android real para que os iniciantes possam ter uma noção de como ficaria essa implementação.
->
+
 Nesse projeto, tentei seguir uma situação do mundo real, aplicando os conceitos abordados no Bootcamp, entre outros. Seguindo o raciocínio de como eu o faria, não quero dizer que é a melhor ou a única forma de se fazer, mas tentei abordar um pouco de como seria no dia a dia de um Desenvolvedor Android.
 
 
 
-## O projeto tem como base:
+## O projeto tem como base
 
 - Kotlin
 - MVI (MVVM) Architecture (Arquitetura em uso:MVI Model View Intent qualquer atualização da IU é definida por um novo estado. Seria um componente a mais usado na arquitetura MVVM do que uma arquitetura propriamente dita.
