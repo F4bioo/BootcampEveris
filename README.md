@@ -27,7 +27,6 @@ Nesse projeto, tentei seguir uma situação do mundo real, aplicando os conceito
 
 
 
-
 | DEASAFIO | NÍVEL | SOLUÇÃO |
 | :--: | :--: | :--: |
 | [Desafio 01](#anchor01) | Básico | [Lógica 01](app/src/main/java/fbo/costa/bootcampeveris/repository/RepositoryChallenge1.kt) |
