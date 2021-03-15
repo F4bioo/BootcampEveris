@@ -18,7 +18,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp"
             tools:context=".ui.MainFragment">
 
             <TextView
@@ -35,6 +34,7 @@
             <androidx.constraintlayout.helper.widget.Flow
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:padding="16dp"
                 app:constraint_referenced_ids="button_challenge1,button_challenge2,button_challenge3"
                 app:flow_horizontalStyle="spread_inside"
                 app:flow_wrapMode="aligned"
@@ -93,6 +93,7 @@
             <androidx.constraintlayout.helper.widget.Flow
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:padding="16dp"
                 app:constraint_referenced_ids="button_challenge4,button_challenge5,button_challenge6, button_challenge7, button_challenge8, button_challenge9, button_challenge10, button_challenge11"
                 app:flow_horizontalStyle="spread_inside"
                 app:flow_wrapMode="aligned"
@@ -233,8 +234,8 @@
         android:gravity="center_horizontal"
         android:paddingBottom="8dp"
         android:text="@string/text_bootcamp_title"
-        android:textSize="16sp"
         android:textColor="#66000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

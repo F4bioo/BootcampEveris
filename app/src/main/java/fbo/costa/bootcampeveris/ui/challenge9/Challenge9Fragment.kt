@@ -121,7 +121,7 @@ class Challenge9Fragment : Fragment(), TextWatcher {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return if (item.itemId == R.id.action_source) {
-            OpenUrl().start(requireContext(), 9)
+            OpenUrl.start(requireContext(), 9)
             true
         } else super.onOptionsItemSelected(item)
     }

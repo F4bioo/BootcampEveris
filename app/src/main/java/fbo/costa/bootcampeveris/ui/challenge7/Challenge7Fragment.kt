@@ -133,7 +133,7 @@ class Challenge7Fragment : Fragment() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return if (item.itemId == R.id.action_source) {
-            OpenUrl().start(requireContext(), 7)
+            OpenUrl.start(requireContext(), 7)
             true
         } else super.onOptionsItemSelected(item)
     }
