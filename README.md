@@ -44,7 +44,7 @@ Nesse projeto, tentei seguir uma situação do mundo real, aplicando os conceito
 
 
 
- > ### [APK Download](https://github.com/F4bioo/BootcampEveris/raw/master/app/release/app-release.apk)
+ > ### [Download APK](https://github.com/F4bioo/BootcampEveris/raw/master/app/release/app-release.apk)
 
 <img src="screen_capture1.png" width="30%"></img>
 <img src="screen_capture2.png" width="30%"></img>
